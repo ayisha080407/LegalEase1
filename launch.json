@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "LegalEase: Streamlit (F5)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "streamlit",
+      "args": ["run", "frontend/app.py"],
+      "cwd": "${workspaceFolder}/LegalEase",
+      "python": "${workspaceFolder}/LegalEase/venv/Scripts/python.exe",
+      "preLaunchTask": "LegalEase: start API",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}
